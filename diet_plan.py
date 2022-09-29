@@ -6,13 +6,15 @@ from utils import cal_BMR_TDEE, format_for_print
 # 内胚型：喝水都长肉，外胚型：瘦啊，太瘦啦
 type = '内胚型'
 weight = 66
-name = '郭恩待'
+name = 'GED'
 gender = '男'
 age = 23
 height = 171
 # [0] 久坐不动 [1] 每周低强度1-3天 [2] 每周中强度3-5天
 # [3] 每周高强度6-7天 [4] 劳动密集工作或每天高强度训练
 intensity = 2
+# 留出的计划摄入与每日消耗的热量差
+# 例如每日消耗为2500kcal，gap为500kcal，意味着你计划每日摄入2000kcal
 gap = 500
 
 
